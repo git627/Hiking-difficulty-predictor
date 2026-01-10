@@ -1,0 +1,9 @@
+dcor==0.6
+matplotlib==3.10.8
+numpy==2.4.1
+pandas==2.3.3
+scikit_learn==1.8.0
+scipy==1.16.3
+shap==0.48.0
+tsfresh==0.21.0
+xgboost==3.1.3
