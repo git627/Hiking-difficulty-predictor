@@ -2,7 +2,7 @@
 A machine learning-based approach for predicting the difficulty of hiking trails
 
 ## Purpose
-Hiking is a pastime enjoyed by millions of people around the world, including myself. There is a huge variety of trails in terms of length, terrain, and scenery. Naturally, there is also a variety of difficulties, ranging from beginner-friendly to extremely strenuous. Additionally, there can be many contributors to the difficulty of hike, including length, elevation gain, and various forms of obstacles. This project seeks to develop a machine learning-based approach to predict the difficulty of hiking trails based on publicly-available information. The performance of the resulting model is compared against conventional predictors[^1] of hiking trail difficulty, and the relative importance of input features is analyzed.
+Hiking is a pastime enjoyed by millions of people around the world, including myself. There is a huge variety of trails in terms of length, terrain, and scenery. Naturally, there is also a variety of difficulties, ranging from beginner-friendly to extremely strenuous. Additionally, there can be many contributors to the difficulty of hike, including length, elevation gain, and various forms of obstacles. This project seeks to develop a machine learning-based approach to predict the difficulty of hiking trails based on publicly-available information. The performance of the resulting model is compared against conventional predictors[^1][^2] of hiking trail difficulty, and the relative importance of input features is analyzed.
 
 ## Datasets
 The Georgia hiking trails .csv file contains information about the top 100 rated hiking trails in the U.S. state of Georgia according to alltrails.com. Recorded information includes rank, name, length, elevation gain, and obstacles (rocky, scramble, no shade, slippery, stairs, muddy, and roots). Additionally, user difficulty ratings are provided by count according to four difficulties: easy, moderate, hard, and strenuous. These ratings are used to create the composite difficulty scores that serve as the target values for this project.
@@ -19,3 +19,4 @@ There are four Jupyter notebooks used in this project:
 4. hiking4_modeling.ipynb: this notebook trains an xgboost model on the training data and evaluates its performance over the testing data. Feature importance is analyzed and model performance is compared against conventional approaches.
 
 [^1]:Troy, Maridy McNeff; Phipps, Maurice (2010). "The validity of Petzoldt's Energy Mile theory".
+[^2]:https://www.nps.gov/shen/planyourvisit/how-to-determine-hiking-difficulty.htm
