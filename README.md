@@ -1,5 +1,5 @@
 # Hiking-difficulty-predictor
-A machine learning-based approach to predicting the difficulty of hiking trails
+A machine learning-based approach for predicting the difficulty of hiking trails
 
 ## Purpose
 Hiking is a pastime enjoyed by millions of people around the world, including myself. There is a huge variety of trails in terms of length, terrain, and scenery. Naturally, there is also a variety of difficulties, ranging from beginner-friendly to extremely strenuous. Additionally, there can be many contributors to the difficulty of hike, including length, elevation gain, and various forms of obstacles. This project seeks to develop a machine learning-based approach to predict the difficulty of hiking trails based on publicly-available information. The performance of the resulting model is compared against conventional predictors[^1] of hiking trail difficulty, and the relative importance of input features is analyzed.
