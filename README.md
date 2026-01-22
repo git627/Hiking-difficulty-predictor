@@ -4,7 +4,7 @@ A machine learning-based approach for predicting the difficulty of hiking trails
 
 ## Purpose
 
-Hiking is a pastime enjoyed by millions of people around the world, including myself. There is a huge variety of trails in terms of length, terrain, and scenery. Naturally, there is also a variety of difficulties, ranging from beginner-friendly to extremely strenuous. Additionally, there can be many contributors to the difficulty of hike, including length, elevation gain, and various forms of obstacles. This project seeks to develop a machine learning-based approach to predict the difficulty of hiking trails based on publicly-available information. The performance of the resulting model is compared against conventional predictors\[^1]\[^2] of hiking trail difficulty, and the relative importance of input features is analyzed.
+Hiking is a pastime enjoyed by millions of people around the world, including myself. There is a huge variety of trails in terms of length, terrain, and scenery. Naturally, there is also a variety of difficulties, ranging from beginner-friendly to extremely strenuous. Additionally, there can be many contributors to the difficulty of hike, including length, elevation gain, and various forms of obstacles. This project seeks to develop a machine learning-based approach to predict the difficulty of hiking trails based on publicly-available information. The performance of the resulting model is compared against conventional predictors[^1][^2] of hiking trail difficulty, and the relative importance of input features is analyzed.
 
 ## Datasets
 
@@ -23,6 +23,6 @@ There are four Jupyter notebooks used in this project:
 3. hiking3\_tsfresh.ipynb: this notebook generates new features based on the sequential elevation profiles and uses principal component analysis (PCA) to capture the most important information. A train/test split is performed on the dataset.
 4. hiking4\_modeling.ipynb: this notebook trains an xgboost model on the training data and evaluates its performance over the testing data. Feature importance is analyzed and model performance is compared against conventional approaches.
 
-\[^1]:Troy, Maridy McNeff; Phipps, Maurice (2010). "The validity of Petzoldt's Energy Mile theory".
-\[^2]:https://www.nps.gov/shen/planyourvisit/how-to-determine-hiking-difficulty.htm
+[^1]:Troy, Maridy McNeff; Phipps, Maurice (2010). "The validity of Petzoldt's Energy Mile theory".
+[^2]:https://www.nps.gov/shen/planyourvisit/how-to-determine-hiking-difficulty.htm
 
